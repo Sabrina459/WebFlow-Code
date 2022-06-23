@@ -155,6 +155,6 @@
             }
             "function" == typeof __CodePenIFrameAddedToPage && __CodePenIFrameAddedToPage()
         }
-        window.__CPEmbed = x, i(x)
+         window.__cp_domReady = i,window.__CPEmbed = x, i(x)
     }
 });
