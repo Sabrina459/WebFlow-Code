@@ -612,7 +612,7 @@
 
         async toggleFiltersState(t) {
             let {listInstance: r, filtersActive: o} = this, s = !t;
-            o !== s && (this.filtersActive = s, r.initialElement && (await r.displayElement(s ? "initialElement" : "wrapper", !0, !1), await r.displayElement(s ? "wrapper" : "initialElement", !0, o !== void 0)))
+            o !== s && (this.filtersActive = s, r.initialElement && (await r.displayElement(s ? "initialElement" : "wrapper", !1, !1), await r.displayElement(s ? "wrapper" : "initialElement", !1, o !== void 0)))
         }
 
         async applyFilters(t, r = !0) {
